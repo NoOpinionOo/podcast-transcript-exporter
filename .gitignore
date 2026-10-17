@@ -15,6 +15,8 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+.python-version
+__pypackages__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -25,9 +27,12 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+pip-wheel-metadata/
 *.exe
 *.zip
 *.sha256
+*.log
+*.tmp
 
 # Lokale Selbsttest-Ergebnisse und Exporte
 source-self-test*.txt
@@ -37,6 +42,7 @@ exports/
 # Entwicklungsumgebungen und Betriebssystem
 .idea/
 .vscode/
+.projecthub/
 .DS_Store
 Thumbs.db
 desktop.ini

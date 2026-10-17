@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "podcast-transcript-exporter",
+  "name": "Podcast-Transkript-Exporter",
+  "version": "0.9.0",
+  "description": "Lokale Windows-App zum Abrufen, Importieren, Anzeigen und Exportieren vorhandener Podcast- und Video-Transkripte.",
+  "type": "desktop-app",
+  "platforms": [
+    "windows"
+  ],
+  "runtime": {
+    "name": "python",
+    "minimum_version": "3.10",
+    "requires_tkinter": true
+  },
+  "repository": "https://github.com/NoOpinionOo/podcast-transcript-exporter.git",
+  "working_directory": ".",
+  "entrypoint": "1-Einrichten-und-starten.pyw",
+  "launch": {
+    "windows": {
+      "command": "pyw",
+      "args": [
+        "-3",
+        "1-Einrichten-und-starten.pyw"
+      ],
+      "fallbacks": [
+        {
+          "command": "pythonw",
+          "args": [
+            "1-Einrichten-und-starten.pyw"
+          ]
+        },
+        {
+          "command": "py",
+          "args": [
+            "-3",
+            "1-Einrichten-und-starten.pyw"
+          ]
+        }
+      ]
+    }
+  },
+  "commands": {
+    "start_development": [
+      "py",
+      "-3",
+      "run_app.pyw"
+    ],
+    "test": [
+      "py",
+      "-3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "self_test": [
+      "py",
+      "-3",
+      "run_app.pyw",
+      "--self-test"
+    ]
+  },
+  "documentation": {
+    "readme": "README.md",
+    "status": "PROJECT_STATUS.md",
+    "technical_notes": "TECHNISCHE_ANALYSE.md"
+  }
+}
