@@ -1,0 +1,48 @@
+# Lokale App-Daten und Zugangsdaten
+settings.json
+.env
+.env.*
+*.cookie
+*.token
+
+# Lokal installierte Python-Abhängigkeiten
+packages/
+.venv/
+venv/
+env/
+
+# Python-Zwischendateien und Tests
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build- und Auslieferungsdateien
+build/
+dist/
+*.egg-info/
+*.exe
+*.zip
+*.sha256
+
+# Lokale Selbsttest-Ergebnisse und Exporte
+source-self-test*.txt
+packaged-self-test*.txt
+exports/
+
+# Entwicklungsumgebungen und Betriebssystem
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lokale Sicherung einer früheren Git-Historie
+.git-backup-*/
+.git-original-*/
+.git-clean/
+GITHUB_REPOSITORY_FERTIGSTELLEN.cmd

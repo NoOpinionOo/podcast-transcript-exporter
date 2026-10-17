@@ -1,0 +1,31 @@
+PODCAST-TRANSKRIPT-EXPORTER – PYTHON-START
+================================================
+
+1. Entpacken Sie dieses ZIP vollständig in einen normalen Ordner.
+   Starten Sie die Datei nicht direkt innerhalb der ZIP-Vorschau.
+
+2. Öffnen Sie die Datei
+
+      1-Einrichten-und-starten.pyw
+
+   mit Ihrer vorhandenen Python-Installation.
+
+3. Beim ersten Start fragt die App, ob die YouTube-Komponente aus dem
+   Python Package Index (PyPI) geladen werden darf. Stimmen Sie zu.
+
+4. Die Komponente wird nur im Unterordner "packages" neben der App
+   gespeichert. Es werden keine Administratorrechte benötigt und keine
+   Spotify-Cookies, Links oder Transkripte an PyPI gesendet.
+
+5. Nach der Einrichtung startet die normale grafische Oberfläche.
+   Für spätere Starts öffnen Sie wieder dieselbe Datei.
+
+Den Hell-/Dunkelmodus schalten Sie oben rechts um. Bei YouTube erscheint
+zusätzlich eine Sprachauswahl. Mit A− und A+ ändern Sie die Schriftgröße.
+
+Die App speichert Farbschema, Schriftgröße, YouTube-Sprachauswahl und den
+letzten Exportordner lokal in "settings.json". Cookies, Links und
+Transkripte werden dort nicht gespeichert.
+
+Wenn Sie die Installation ablehnen, können Spotify, lokale Dateien und
+RSS-Transkripte weiterhin verwendet werden; YouTube funktioniert dann nicht.

@@ -1,0 +1,33 @@
+{
+  "title": "Beispielfolge: Von der Idee zur sicheren App",
+  "show": "Werkstattgespraeche",
+  "language": "de",
+  "notice": "Frei erfundene lokale Beispieldaten; kein Spotify-Inhalt.",
+  "timing_origin": "provided",
+  "segments": [
+    {
+      "start_ms": 0,
+      "end_ms": 6200,
+      "speaker": "Moderation",
+      "text": "Willkommen zu unserer Beispielfolge. Heute planen wir eine kleine und sichere Windows-Anwendung."
+    },
+    {
+      "start_ms": 6200,
+      "end_ms": 14100,
+      "speaker": "Gast",
+      "text": "Wir beginnen mit klar getrennten Bausteinen fuer Eingabe, Verarbeitung und Export."
+    },
+    {
+      "start_ms": 14100,
+      "end_ms": 22600,
+      "speaker": "Moderation",
+      "text": "Automatisierte Tests pruefen, ob Links korrekt erkannt und Dateien sauber erzeugt werden."
+    },
+    {
+      "start_ms": 22600,
+      "end_ms": 31500,
+      "speaker": "Gast",
+      "text": "Ein echter Netzwerkabruf kommt erst hinzu, wenn Datenquelle, Einwilligung und Nutzungsrechte geklaert sind."
+    }
+  ]
+}
